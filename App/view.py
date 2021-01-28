@@ -42,7 +42,7 @@ def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    # TO-DO: Modificaciones para completar el laboratorio 1.
+    print("3- Cargar Identificador de Libros y Tags")
     print("0- Salir")
 
 
@@ -65,7 +65,7 @@ Menu principal
 """
 while True:
     printMenu()
-    inputs = input('Seleccione una opción para continuar\n')
+    inputs = input('Seleccione una opción para continuar:\n')
     if int(inputs[0]) == 1:
         print("Cargando información de libros....")
         books = loadBooks()
