@@ -1,6 +1,6 @@
 #ISIS1225 - Estructura de un proyecto
-* Juan Camilo Falla 
-* Nicolas Klopstock
+* Juan Camilo Falla 201922219 j.fallag@uniandes.edu.co
+* Nicolas Klopstock 202021352 n.klopstock@uniandes.edu.co
 
 Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
 

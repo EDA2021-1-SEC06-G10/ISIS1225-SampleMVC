@@ -62,9 +62,9 @@ def loadTags():
 
 def loadbooktags():
     """
-    
-    
+    Carga los identificadores de libros y tags
     """
+    return loadBooksTags('GoodReads/book_tags-small.csv')
 
 """
 Menu principal
@@ -84,7 +84,8 @@ while True:
     # TO-DO: Modificaciones para completar el laboratorio 1.
     elif int(inputs[0])== 3:
         print("Cargando información de los tags de los libros")
-        book_tags= 
+        book_tags= loadbooktags()
+        print("Total de identificadores de libros y tags cargados: " str(lt.size(book_tags)))
 
     else:
         sys.exit(0)
