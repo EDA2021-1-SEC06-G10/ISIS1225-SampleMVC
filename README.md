@@ -1,4 +1,6 @@
 #ISIS1225 - Estructura de un proyecto
+* Juan Camilo Falla 
+* Nicolas Klopstock
 
 *Integrantes: Juan Camilo Falla y Nicolás Klopstock*
 
