@@ -1,9 +1,4 @@
 """
-
-"""
-
-
-"""
  * Copyright 2020, Departamento de sistemas y Computación,
  * Universidad de Los Andes
  *
@@ -47,7 +42,8 @@ def printMenu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    print("3- Cargar Identificador de Libros y Tags")
+    print("3-Cargar Identificador de Libros y Tags")
+    # TO-DO: Modificaciones para completar el laboratorio 1.
     print("0- Salir")
 
 
@@ -64,6 +60,11 @@ def loadTags():
     """
     return controller.loadTags('GoodReads/tags.csv')
 
+def loadbooktags():
+    """
+    
+    
+    """
 
 """
 Menu principal
@@ -81,6 +82,9 @@ while True:
         tags = loadTags()
         print('Total de tags cargados: ' + str(lt.size(tags)))
     # TO-DO: Modificaciones para completar el laboratorio 1.
+    elif int(inputs[0])== 3:
+        print("Cargando información de los tags de los libros")
+        book_tags= 
 
     else:
         sys.exit(0)
